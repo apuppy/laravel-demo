@@ -25,7 +25,7 @@ class IndexController extends Controller
         Log::notice($message);
         Log::info($message);
         Log::debug($message);
-        dump($_SERVER['request_id']);
+        // dump($_SERVER['request_id']);
         exit();
     }
 

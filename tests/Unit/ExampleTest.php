@@ -15,9 +15,4 @@ class ExampleTest extends TestCase
     {
         $this->assertTrue(true);
     }
-
-    public function test_demo(){
-        // $this->assertEquals(1,1,'right or true');
-        $this->assertDirectoryExists('/home/archer','directory not exists');
-    }
 }
